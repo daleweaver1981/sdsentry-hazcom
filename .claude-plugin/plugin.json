@@ -2,7 +2,7 @@
   "name": "sdsentry-hazcom",
   "displayName": "SDSentry HazCom",
   "description": "Find the manufacturer Safety Data Sheet (SDS) for any workplace chemical and get an employer ready for OSHA Hazard Communication (29 CFR 1910.1200): SDS access, GHS labels, a written program and training.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "0xpi LLC",
     "url": "https://sdsentry.0xpi.com/"
@@ -10,5 +10,16 @@
   "homepage": "https://sdsentry.0xpi.com/",
   "repository": "https://github.com/daleweaver1981/sdsentry-hazcom",
   "license": "MIT",
-  "keywords": ["osha", "hazcom", "sds", "safety-data-sheet", "ghs", "ehs", "chemical-safety", "compliance"]
+  "keywords": [
+    "osha",
+    "hazcom",
+    "sds",
+    "safety-data-sheet",
+    "ghs",
+    "ehs",
+    "chemical-safety",
+    "compliance"
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://sdsentry.0xpi.com/privacy.html"
 }
