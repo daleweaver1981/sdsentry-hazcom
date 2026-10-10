@@ -21,7 +21,7 @@ Find the manufacturer Safety Data Sheet (SDS) for any workplace chemical, and ge
 
 Always confirm that a sheet matches the exact product and revision you have on site. The guidance is general and is not a legal determination.
 
-SDSentry (https://sdsentry.0xpi.com/) is SDS and HazCom management software from 0xpi LLC. The plugin and its tools are free and need no account.
+SDSentry (https://sdsentry.0xpi.com/) is SDS and HazCom management software from 0xpi (Dale Weaver, sole proprietor). The plugin and its tools are free and need no account.
 
 Support: https://sdsentry.0xpi.com/ · Privacy: https://sdsentry.0xpi.com/privacy.html
 

@@ -4,7 +4,7 @@
   "description": "Find the manufacturer Safety Data Sheet (SDS) for any workplace chemical and get an employer ready for OSHA Hazard Communication (29 CFR 1910.1200): SDS access, GHS labels, a written program and training.",
   "version": "1.0.1",
   "author": {
-    "name": "0xpi LLC",
+    "name": "Dale Weaver (0xpi)",
     "url": "https://sdsentry.0xpi.com/"
   },
   "homepage": "https://sdsentry.0xpi.com/",
