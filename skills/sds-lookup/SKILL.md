@@ -1,6 +1,6 @@
 ---
 name: sds-lookup
-description: "Find the manufacturer Safety Data Sheet (SDS/MSDS) for a chemical or product and answer hazard, PPE, storage, first-aid or spill questions from it. Use when someone names a chemical or product they keep, use or sell and needs its SDS or its hazards."
+description: "Find the Safety Data Sheet (SDS/MSDS) for a chemical or product and answer hazard, PPE, storage, first-aid or spill questions from it. Use when someone names a chemical or product they keep, use or sell and needs its SDS or its hazards."
 metadata:
   node_type: memory
   originSessionId: 18b48c40-2317-4d7e-82ea-10801f306d30
@@ -9,7 +9,7 @@ metadata:
 
 # SDS lookup
 
-Use the `find_safety_data_sheet` tool from the SDSentry server to get the real manufacturer SDS before answering safety questions about a specific product.
+Use the `find_safety_data_sheet` tool from the SDSentry server to get the real SDS before answering safety questions about a specific product. The result says whether the PDF is manufacturer-hosted or a third-party copy; a third-party copy may be out of date, so tell the user to get the current sheet from the manufacturer.
 
 ## When to use
 
@@ -23,7 +23,7 @@ Use the `find_safety_data_sheet` tool from the SDSentry server to get the real m
 2. Read the result:
    - **Found with high or medium confidence:** give the product name, manufacturer, CAS number(s) and the SDS link. Answer the user's question from the relevant SDS section (Section 2 hazards, 4 first aid, 6 accidental release, 7 handling and storage, 8 exposure controls/PPE, 10 stability and reactivity).
    - **Low confidence or not identified:** say so plainly. Ask for the exact product name, manufacturer or a photo of the label. Do not substitute a different product's SDS: a wrong SDS is worse than none.
-3. For several products, call the tool once per product and present a table: product, manufacturer, SDS link, confidence.
+3. For several products, call `find_sds_for_inventory` with the list (up to 10 per call) and present its table. Send any products it lists as not looked up yet again in a later call.
 
 ## Rules
 
