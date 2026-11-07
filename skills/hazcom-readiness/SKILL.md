@@ -1,10 +1,6 @@
 ---
 name: hazcom-readiness
 description: "Check whether a workplace is ready for OSHA Hazard Communication (HazCom, 29 CFR 1910.1200) and help close the gaps - chemical inventory, SDS access, GHS secondary-container labels, a written HazCom program and employee training. Use when an employer, office manager or safety lead asks if they are HazCom compliant, about the HazCom deadline, or for a written program."
-metadata:
-  node_type: memory
-  originSessionId: 18b48c40-2317-4d7e-82ea-10801f306d30
-  modified: 2026-10-07T03:03:33.603Z
 ---
 
 # HazCom readiness

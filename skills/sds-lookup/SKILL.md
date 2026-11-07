@@ -1,10 +1,6 @@
 ---
 name: sds-lookup
 description: "Find the Safety Data Sheet (SDS/MSDS) for a chemical or product and answer hazard, PPE, storage, first-aid or spill questions from it. Use when someone names a chemical or product they keep, use or sell and needs its SDS or its hazards."
-metadata:
-  node_type: memory
-  originSessionId: 18b48c40-2317-4d7e-82ea-10801f306d30
-  modified: 2026-10-07T03:03:26.901Z
 ---
 
 # SDS lookup
